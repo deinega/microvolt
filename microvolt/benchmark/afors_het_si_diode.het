@@ -1,0 +1,211 @@
+cell parameter:
+
+/general parameters
+MISf:	0 Ohm*cm^2	fraqtion
+initialvaluesfromfile:	false
+initialgridfromfile:	false
+/end of general parameters
+
+/layer
+name:	vacuum/air
+width:	1E-6 cm	layer thickness
+incoherent:	false	incoherent calculation
+n:	1 	optical coefficient n
+k:	0 	optical coefficient k
+/end of layer
+
+
+/frontcontact
+name:	Front contact boundary
+BandBending:	Flat-band
+ref:	0 	constant reflection
+abs:	0 	constant absorption
+int_ref:	0 	constant internal reflection
+/end of frontcontact
+
+/interface
+interfacename:	Flatband Schottky front interface
+numeric-model:	0	MS-Schottky-Contact
+/modelparameters
+model-name:	MS-Schottky-Contact
+sn:	1E20 cm/s	electron surface recombination velocity
+sp:	1E20 cm/s	hole surface recombination velocity
+/end of modelparameters
+Qif:	0 cm^-3	Interface Charge
+
+no defects
+/end of interface
+
+/layer
+name:	Layer 1
+numeric-model:	0	standard
+functional_dependance:	Constant
+xd_dk:	1E99
+xd_chi:	1E99
+xd_Eg:	1E99
+xd_Egopt:	1E99
+xd_Nc:	1E99
+xd_Nv:	1E99
+xd_me:	1E99
+xd_mh:	1E99
+xd_Na:	1E99
+xd_Nd:	1E99
+xd_ve:	1E99
+xd_vh:	1E99
+xd_rho:	1E99
+xd_rae:	1E99
+xd_rah:	1E99
+xd_rbb:	1E99
+decr_type:	rightside
+xD:	1
+width:	5E-5 cm	layer thickness
+dk:	11.9 	dielectric constant
+chi:	4.05 eV	electron affinity
+Eg:	1.124 eV	bandgap
+Egopt:	1.124 eV	optical bandgap
+Nc:	2.86E19 cm^-3	effective conduction band density
+Nv:	2.66E19 cm^-3	effective valence band density
+me:	1107 cm^2/Vs	effective electron mobility
+mh:	424.6 cm^2/Vs	effective hole mobility
+Na:	0 cm^-3	doping concentration acceptors
+Nd:	1E18 cm^-3	doping concentration donators
+ve:	10000000 cm/s	electron thermal velocity
+vh:	10000000 cm/s	hole thermal velocity
+rho:	2.328 g*cm^-3	layer density
+rae:	0 cm^6/s	auger electron recombination coefficient
+rah:	0 cm^6/s	auger hole recombination coefficient
+rbb:	0 cm^3/s	band to band recombination coefficient
+nk-file:	cSi.nk	lambda[nm],n[-],k[-]
+incoherent:	false	incoherent calculation
+
+/defect
+name:	Defect_1
+text:	neutral defect at intrinsic energy
+type:	single
+charge:	neutral
+hurkx:	off
+cn:	1E-14 cm^2	electron thermal cross section
+cp:	1E-14 cm^2	hole thermal cross section
+meff:	0.25 cm^2	efective tunneling mass
+cnplus:	1E-12 cm^2	electron thermal cross section
+cpminus:	1E-12 cm^2	hole thermal cross section
+cnzero:	1E-15 cm^2	electron thermal cross section
+cpzero:	1E-15 cm^2	hole thermal cross section
+cno:	0 cm^2	electron optical cross section
+cpo:	0 cm^2	hole optical cross section
+Ntr:	100000000000000 cm^-3	trap density
+E:	0.561247 eV	characteristic energy
+Ntr specific:	100000000000000 cm^-3/eV	specific trap density
+Taun:	1E-7 s	mean electron lifetime
+Taup:	1E-7 s	mean hole lifetime
+Ln:	0.00169169127743868 cm	mean electron diffusion length
+Lp:	0.00104770084580541 cm	mean hole diffusion length
+/end of defect
+/end of layer
+
+/interface
+interfacename:	No Interface
+numeric-model:	0	No Interface
+Qif:	0 cm^-3	Interface Charge
+
+no defects
+/end of interface
+
+/layer
+name:	Layer 2
+numeric-model:	0	standard
+functional_dependance:	Constant
+xd_dk:	1E99
+xd_chi:	1E99
+xd_Eg:	1E99
+xd_Egopt:	1E99
+xd_Nc:	1E99
+xd_Nv:	1E99
+xd_me:	1E99
+xd_mh:	1E99
+xd_Na:	1E99
+xd_Nd:	1E99
+xd_ve:	1E99
+xd_vh:	1E99
+xd_rho:	1E99
+xd_rae:	1E99
+xd_rah:	1E99
+xd_rbb:	1E99
+decr_type:	rightside
+xD:	1
+width:	5E-5 cm	layer thickness
+dk:	11.9 	dielectric constant
+chi:	4.05 eV	electron affinity
+Eg:	1.124 eV	bandgap
+Egopt:	1.124 eV	optical bandgap
+Nc:	2.86E19 cm^-3	effective conduction band density
+Nv:	2.66E19 cm^-3	effective valence band density
+me:	1170 cm^2/Vs	effective electron mobility
+mh:	434.8 cm^2/Vs	effective hole mobility
+Na:	1E18 cm^-3	doping concentration acceptors
+Nd:	0 cm^-3	doping concentration donators
+ve:	10000000 cm/s	electron thermal velocity
+vh:	10000000 cm/s	hole thermal velocity
+rho:	2.328 g*cm^-3	layer density
+rae:	0 cm^6/s	auger electron recombination coefficient
+rah:	0 cm^6/s	auger hole recombination coefficient
+rbb:	0 cm^3/s	band to band recombination coefficient
+nk-file:	cSi.nk	lambda[nm],n[-],k[-]
+incoherent:	false	incoherent calculation
+
+/defect
+name:	Defect_1
+text:	neutral defect at intrinsic energy
+type:	single
+charge:	neutral
+hurkx:	off
+cn:	1E-14 cm^2	electron thermal cross section
+cp:	1E-14 cm^2	hole thermal cross section
+meff:	0.25 cm^2	efective tunneling mass
+cnplus:	1E-12 cm^2	electron thermal cross section
+cpminus:	1E-12 cm^2	hole thermal cross section
+cnzero:	1E-15 cm^2	electron thermal cross section
+cpzero:	1E-15 cm^2	hole thermal cross section
+cno:	0 cm^2	electron optical cross section
+cpo:	0 cm^2	hole optical cross section
+Ntr:	100000000000000 cm^-3	trap density
+E:	0.561247 eV	characteristic energy
+Ntr specific:	100000000000000 cm^-3/eV	specific trap density
+Taun:	1E-7 s	mean electron lifetime
+Taup:	1E-7 s	mean hole lifetime
+Ln:	0.00173916277204033 cm	mean electron diffusion length
+Lp:	0.00106021041767304 cm	mean hole diffusion length
+/end of defect
+/end of layer
+
+/interfacebackside
+interfacename:	Flatband Schottky back interface
+numeric-model:	0	MS-Schottky-Contact
+/modelparameters
+model-name:	MS-Schottky-Contact
+sn:	1E20 cm/s	electron surface recombination velocity
+sp:	1E20 cm/s	hole surface recombination velocity
+/end of modelparameters
+Qif:	0 cm^-3	Interface Charge
+
+no defects
+/end of interface
+
+/backcontact
+name:	Back contact boundary
+BandBending:	Flat-band
+ref:	0 	constant reflection
+abs:	0 	constant absorption
+int_ref:	0 	constant internal reflection
+/end of backcontact
+
+/layer
+name:	vacuum/air
+width:	1E-6 cm	layer thickness
+incoherent:	false	incoherent calculation
+n:	1 	optical coefficient n
+k:	0 	optical coefficient k
+/end of layer
+
+
+/end of all layers

@@ -1,0 +1,19 @@
+
+center: 0 3 2
+file_name: examlpe.dat 
+radius: 15
+size: 2*($radius+1)
+double_size: 2*$size
+recording: off
+; some comments
+
+if $recording!=off
+  num: 1 ; another comments
+elseif $recording==off
+  if 1==1
+    num: -1
+  end
+else
+  num: 0
+end
+

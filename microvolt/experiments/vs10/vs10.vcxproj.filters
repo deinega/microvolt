@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ivutils">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="transport">
+      <UniqueIdentifier>{134e3a27-e55c-4eb6-bb5c-f74520045c66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\ivutils\src\erf.c">
+      <Filter>ivutils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ivutils\src\component.cpp">
+      <Filter>ivutils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ivutils\src\contour_t.cpp">
+      <Filter>ivutils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ivutils\src\gnudump.cpp">
+      <Filter>ivutils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ivutils\src\grid.cpp">
+      <Filter>ivutils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ivutils\src\grid_t.cpp">
+      <Filter>ivutils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ivutils\src\ifmpi.cpp">
+      <Filter>ivutils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ivutils\src\linsolv.cpp">
+      <Filter>ivutils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ivutils\src\logexc.cpp">
+      <Filter>ivutils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ivutils\src\region_2.cpp">
+      <Filter>ivutils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ivutils\src\region_3.cpp">
+      <Filter>ivutils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ivutils\src\seqpack.cpp">
+      <Filter>ivutils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ivutils\src\string_utils.cpp">
+      <Filter>ivutils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ivutils\src\vector_set.cpp">
+      <Filter>ivutils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sc_detector.cpp">
+      <Filter>transport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sc_dump.cpp">
+      <Filter>transport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sc_fd.cpp">
+      <Filter>transport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sc_fix.cpp">
+      <Filter>transport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sc_generation.cpp">
+      <Filter>transport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sc_mesh.cpp">
+      <Filter>transport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sc_ui.cpp">
+      <Filter>transport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sc_alloyfactory.cpp">
+      <Filter>transport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sc_mediumbase.cpp">
+      <Filter>transport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sc_mediumfactory.cpp">
+      <Filter>transport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\diode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\ivutils\include\basis_3.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\component.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\contour.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\detector.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\erf.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\gnudump.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\grid.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\ifmpi.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\linsolv.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\logexc.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\logger.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\loggerio.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\math_utils.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\pencil.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\plane_3.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\refobj.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\region_2.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\region_3.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\seqpack.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\string_utils.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\transfer.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\utiltl.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\vector_3.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\vector_set.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\src\contour.hpp">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\src\detector.hpp">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\src\gnudump.hpp">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\src\grid.hpp">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\src\region_2.hpp">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\src\region_3.hpp">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sc_generation.h">
+      <Filter>transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sc_ui.h">
+      <Filter>transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sc.h">
+      <Filter>transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sc_dump.h">
+      <Filter>transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sc_fd.h">
+      <Filter>transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sc_fix.h">
+      <Filter>transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sc_mesh.h">
+      <Filter>transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\transfer.hpp">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sc_alloy.h">
+      <Filter>transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sc_alloyfactory.h">
+      <Filter>transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sc_carrier_params.h">
+      <Filter>transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sc_mediumbase.h">
+      <Filter>transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sc_mediumfactory.h">
+      <Filter>transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sc_media_array.h">
+      <Filter>transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sc_medium_hqs.h">
+      <Filter>transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\cpp11features.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\physconst.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\data_flags.h">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sc_context.h">
+      <Filter>transport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ivutils\include\linsolv.hpp">
+      <Filter>ivutils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
